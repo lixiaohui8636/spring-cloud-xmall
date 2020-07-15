@@ -1,0 +1,38 @@
+group GROUP
+version VERSION
+
+buildscript {
+    // buildScript的仓库源
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+    }
+    // buildScript的插件
+    dependencies {
+        //spring boot的插件
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${SPRING_BOOT_VERSION}")
+    }
+}
+
+apply plugin: 'org.springframework.boot'
+apply plugin: 'java'
+
+//指定java1.8
+compileJava {
+    sourceCompatibility = JAVA_VERSION
+    targetCompatibility = JAVA_VERSION
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = ENCODING
+}
+
+//依赖的仓库源
+allprojects {
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        mavenCentral()
+    }
+}
+
+
