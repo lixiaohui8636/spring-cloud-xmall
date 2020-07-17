@@ -13,15 +13,13 @@ tasks.withType(JavaCompile) {
     options.encoding = ENCODING
 }
 
-bootJar {
-    baseName = 'user-center'
-    version =  VERSION
-}
-
 dependencies {
+    compile project(path: ":commons")
     compile "org.springframework.boot:spring-boot-starter-web:${SPRING_BOOT_VERSION}"
+    compile "org.springframework.boot:spring-boot-starter-actuator:${SPRING_BOOT_VERSION}"
     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SPRING_BOOT_VERSION}"
     compile "org.springframework.boot:spring-boot-starter-data-redis:${SPRING_BOOT_VERSION}"
+    compile "mysql:mysql-connector-java:${MYSQL_CONNECTOR_VERSION}"
 
 
     testCompile "junit:junit:${JUNIT_VERSION}"
