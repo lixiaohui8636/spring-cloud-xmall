@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd53a0f0-4cc0-4296-8821-2b517002b13b" name="Default Changelist" comment="[代码整理]">
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-center/out/production/classes/com/lixaohui8626/server/order/controller/ServerInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-center/out/production/classes/com/lixaohui8626/server/order/controller/ServerInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-center/out/production/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/out/production/classes/com/lixiaohui8636/server/user/controller/ServerInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-center/out/production/classes/com/lixiaohui8636/server/user/controller/ServerInfoController.class" afterDir="false" />
-    </list>
+    <list default="true" id="dd53a0f0-4cc0-4296-8821-2b517002b13b" name="Default Changelist" comment="[代码整理]" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -346,82 +337,6 @@
               <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lixiaohui8636" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lixiaohui8636" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lixiaohui8636" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lixiaohui8636" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -558,11 +473,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5752000" />
+    <option name="totallyTimeSpent" value="5760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36552218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -575,10 +489,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" weight="0.44096386" />
+      <window_info anchor="bottom" id="Run Dashboard" order="6" visible="true" weight="0.44096386" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -713,16 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/utils/LogMessageBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/utils/LogMessageBuilder.java" />
     <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
