@@ -6,29 +6,14 @@ server:
   port: 8001
 spring:
   profiles: dev
+  application:
+    name: user-center
   redis:
     host: 127.0.0.1
     port: 6379
     password:
-
-jdbc:
-  driverClass: com.mysql.jdbc.Driver
-  url: jdbc:mysql://127.0.0.1:3306/excalibur?useUnicode=true&characterEncoding=utf-8
-  username: root
-  password: 12345678
-
----
-server:
-  port: 8001
-spring:
-  profiles: prod
-  redis:
-    host: 127.0.0.1
-    port: 6379
-    password:
-
-jdbc:
-  driverClass: com.mysql.jdbc.Driver
-  url: jdbc:mysql://127.0.0.1:3306/excalibur?useUnicode=true&characterEncoding=utf-8
-  username: root
-  password: 12345678
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xmall?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 12345678

@@ -21,6 +21,7 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-data-redis:${SPRING_BOOT_VERSION}"
     compile "mysql:mysql-connector-java:${MYSQL_CONNECTOR_VERSION}"
 
+    runtimeOnly "org.springframework.boot:spring-boot-devtools:${SPRING_BOOT_VERSION}"
 
     testCompile "junit:junit:${JUNIT_VERSION}"
     testCompile "org.springframework.boot:spring-boot-starter-test:${SPRING_BOOT_VERSION}"
