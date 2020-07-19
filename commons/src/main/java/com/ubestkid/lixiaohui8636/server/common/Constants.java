@@ -1,4 +1,4 @@
-package com.ubestkid.lixiaohui8636.server;
+package com.ubestkid.lixiaohui8636.server.common;
 
 import java.nio.charset.Charset;
 

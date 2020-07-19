@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd53a0f0-4cc0-4296-8821-2b517002b13b" name="Default Changelist" comment="[代码整理]">
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/commons/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-center/out/production/classes/com/lixaohui8626/server/order/controller/ServerInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-center/out/production/classes/com/lixaohui8626/server/order/controller/ServerInfoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-center/out/production/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user-center/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-center/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-center/out/production/classes/com/lixiaohui8636/server/user/controller/ServerInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-center/out/production/classes/com/lixiaohui8636/server/user/controller/ServerInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/controller/ServerInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/controller/ServerInfoController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -102,10 +101,59 @@
         <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/UserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="e#313#314#0" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding>
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonErrorCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,11 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="66">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -135,6 +183,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -155,6 +204,10 @@
         <option value="$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/controller/ServerInfoController.java" />
         <option value="$PROJECT_DIR$/user-center/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/utils/LogMessageBuilder.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonErrorCode.java" />
+        <option value="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonResponse.java" />
       </list>
     </option>
   </component>
@@ -243,6 +296,19 @@
               <item name="ubestkid" type="462c0819:PsiDirectoryNode" />
               <item name="lixiaohui8636" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-xmall" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="commons" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ubestkid" type="462c0819:PsiDirectoryNode" />
+              <item name="lixiaohui8636" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-xmall" type="b2602c69:ProjectViewProjectNode" />
@@ -382,7 +448,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/order-center/src/main/java/com/lixaohui8626/server/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -395,6 +461,7 @@
       <recent name="com.lixaohui8626.server.order.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/utils" />
       <recent name="$PROJECT_DIR$/order-center/src/main/java/com/lixaohui8626/server/order" />
     </key>
   </component>
@@ -471,7 +538,7 @@
       <workItem from="1594994222868" duration="2246000" />
       <workItem from="1595056457197" duration="470000" />
       <workItem from="1595056953892" duration="644000" />
-      <workItem from="1595166446756" duration="77000" />
+      <workItem from="1595166446756" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="[代码整理]">
       <created>1594996239909</created>
@@ -480,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594996239909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[init]">
+      <created>1595166571498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595166571499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4893000" />
+    <option name="totallyTimeSpent" value="5752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -501,10 +575,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="6" visible="true" weight="0.44096386" />
+      <window_info anchor="bottom" id="Run Dashboard" order="6" weight="0.44096386" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -529,7 +603,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[代码整理]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[代码整理]" />
+    <MESSAGE value="[init]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[init]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -567,13 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="23" column="12" selection-start-line="23" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -624,17 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-center/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -644,8 +701,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/utils/LogMessageBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/com/lixiaohui8636/server/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/ubestkid/lixiaohui8636/server/common/CommonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
