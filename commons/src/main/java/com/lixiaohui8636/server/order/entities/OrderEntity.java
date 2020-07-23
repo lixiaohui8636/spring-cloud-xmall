@@ -1,4 +1,4 @@
-package com.lixiaohui8636.server.entities;
+package com.lixiaohui8636.server.order.entities;
 
 import java.util.Date;
 

@@ -1,5 +1,8 @@
-package com.lixiaohui8636.server.entities.user;
+package com.lixiaohui8636.server.user;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -8,14 +11,17 @@ import java.util.Date;
  * @Date: 2020-07-21
  * @Desc:
  */
+@Entity
+@Table(name = "user_profile", schema = "xmall")
 public class UserProfileEntity implements Serializable {
     private static final long serialVersionUID = 909141246485305339L;
-    private long id;
-    private long userId;
+    @Id
+    private Long id;
+    private Long userId;
     private String nickName;
     private Date userBirth;
     private String headImage;
-    private int userSex;
+    private Integer userSex;
     private String tag;
     private UserInfoEntity.Status status;
     private Date createTime;
@@ -25,19 +31,19 @@ public class UserProfileEntity implements Serializable {
         return serialVersionUID;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public long getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(long userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 
@@ -65,11 +71,11 @@ public class UserProfileEntity implements Serializable {
         this.headImage = headImage;
     }
 
-    public int getUserSex() {
+    public Integer getUserSex() {
         return userSex;
     }
 
-    public void setUserSex(int userSex) {
+    public void setUserSex(Integer userSex) {
         this.userSex = userSex;
     }
 

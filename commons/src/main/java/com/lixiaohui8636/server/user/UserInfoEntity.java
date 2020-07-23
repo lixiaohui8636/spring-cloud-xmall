@@ -1,5 +1,8 @@
-package com.lixiaohui8636.server.entities.user;
+package com.lixiaohui8636.server.user;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
@@ -7,18 +10,21 @@ import java.io.Serializable;
  * @Date: 2020-07-15
  * @Desc:
  */
+@Entity
+@Table(name = "user_info", schema = "xmall")
 public class UserInfoEntity implements Serializable {
     private static final long serialVersionUID = -180751959625645612L;
 
-    public static enum UserType{
+    public enum UserType{
         PHONE,WECHAT,GUEST
     }
 
-    public static enum Status{
+    public enum Status{
         ENABLED,DELETED
     }
 
-    private long id;
+    @Id
+    private Long id;
     private String userName;
     private String pwd;
     private UserType userType;
@@ -35,11 +41,11 @@ public class UserInfoEntity implements Serializable {
         return serialVersionUID;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

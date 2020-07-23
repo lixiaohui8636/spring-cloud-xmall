@@ -1,6 +1,6 @@
 package com.lixiaohui8636.server.user.repository;
 
-import com.lixiaohui8636.server.entities.user.UserInfoEntity;
+import com.lixiaohui8636.server.user.UserInfoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -8,6 +8,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Date: 2020-07-21
  * @Desc:
  */
-public interface UserInfoRepository extends JpaRepository<Long, UserInfoEntity> {
+public interface UserInfoRepository extends JpaRepository<UserInfoEntity, Long> {
 
 }
