@@ -1,4 +1,4 @@
-package com.ubestkid.lixiaohui8636.server.utils;
+package com.lixiaohui8636.server.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

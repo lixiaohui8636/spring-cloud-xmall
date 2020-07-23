@@ -1,6 +1,6 @@
 package com.lixiaohui8636.server.user.service.user;
 
-import com.ubestkid.lixiaohui8636.server.entities.user.UserProfileEntity;
+import com.lixiaohui8636.server.entities.user.UserProfileEntity;
 
 /**
  * @Author: Lee

@@ -1,4 +1,4 @@
-package com.ubestkid.lixiaohui8636.server.entities;
+package com.lixiaohui8636.server.entities;
 
 import java.util.Date;
 
