@@ -1,8 +1,6 @@
 package com.lixiaohui8636.server.user.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -16,6 +14,7 @@ import java.util.Date;
 public class UserProfileEntity implements Serializable {
     private static final long serialVersionUID = 909141246485305339L;
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long userId;
     private String nickName;
@@ -23,8 +22,12 @@ public class UserProfileEntity implements Serializable {
     private String headImage;
     private Integer userSex;
     private String tag;
+
+    @Column(name = "status", insertable = false)
     private UserInfoEntity.Status status;
+    @Column(name = "create_time", insertable = false, updatable = false)
     private Date createTime;
+    @Column(name = "update_time", insertable = false, updatable = false)
     private Date updateTime;
 
     public static long getSerialVersionUID() {

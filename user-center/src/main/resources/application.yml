@@ -17,6 +17,13 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/xmall?useUnicode=true&characterEncoding=utf-8
     username: root
     password: 12345678
+  jpa:
+    properties:
+      hibernate:
+        #打印sql日志
+        show_sql: true
+        #格式化sql日志
+        format_sql: true
 eureka:
   client:
     service-url:

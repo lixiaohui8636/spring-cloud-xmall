@@ -1,8 +1,6 @@
 package com.lixiaohui8636.server.user.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
@@ -24,6 +22,7 @@ public class UserInfoEntity implements Serializable {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String userName;
     private String pwd;
@@ -33,8 +32,12 @@ public class UserInfoEntity implements Serializable {
     private String channel;
     private String deviceId;
     private String srcApp;
+
+    @Column(name = "status", insertable = false)
     private Status status;
+    @Column(name = "create_time", insertable = false, updatable = false)
     private String createTime;
+    @Column(name = "update_time", insertable = false, updatable = false)
     private String updateTime;
 
     public static long getSerialVersionUID() {
