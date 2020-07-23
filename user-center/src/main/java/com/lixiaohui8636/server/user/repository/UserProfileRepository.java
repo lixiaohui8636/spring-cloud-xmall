@@ -1,6 +1,6 @@
 package com.lixiaohui8636.server.user.repository;
 
-import com.lixiaohui8636.server.user.UserProfileEntity;
+import com.lixiaohui8636.server.user.entities.UserProfileEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

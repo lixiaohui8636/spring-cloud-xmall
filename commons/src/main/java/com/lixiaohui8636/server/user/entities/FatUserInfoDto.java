@@ -1,4 +1,4 @@
-package com.lixiaohui8636.server.user;
+package com.lixiaohui8636.server.user.entities;
 
 /**
  * @Author: Lee
