@@ -10,4 +10,7 @@ import org.springframework.data.jpa.repository.Query;
  * @Desc:
  */
 public interface UserInfoRepository extends JpaRepository<UserInfoEntity, Long> {
+
+    @Query(value = "select * from user_info where phone = :phone", nativeQuery = true)
+    public UserInfoEntity findUserInfoEntityByPhone(String phone);
 }
