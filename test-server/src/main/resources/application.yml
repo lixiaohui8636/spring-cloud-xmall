@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+  application:
+    name: order-center
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xmall?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 12345678
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/

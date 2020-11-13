@@ -4,4 +4,5 @@ include 'commons'
 include 'user-center'
 include 'order-center'
 include 'eureka-server'
+include 'test-server'
 
